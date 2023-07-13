@@ -1,4 +1,11 @@
 ## This repo was partially inspired by [Anton Putra's Tutorials](https://github.com/antonputra/tutorials)
+
+## Provisioning the following resources with terragrunt
+- EKS Cluster with two availablity zone, each with a public and private subnet
+- Two differenct aws account for dev and production environment
+- Managed RDS Database
+- Kubernetes Addons Like, Prometheus, Grafana, Argocd, Argo Rollout
+- SSL configuration with Cert-manager
 ## Cluster UP
 
 
