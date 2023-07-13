@@ -107,16 +107,22 @@ echo "SzlkV0JlcG9CcWQ4MnR0Sw==" | base64 -d
 30 |    path: environments/dev/apps
 ```
 
-- *repoURL:* The [repository url](https://github.com/reduan2660/devops-cd.git) where the deployment rests. 
+- *repoURL:* The [repository url](https://github.com/here-for-the-experience/deployment.git) where the deployment rests. 
     - If repo is private: 
 
-- *path:* what file or directory to track. [The structure of this path points to is documented on that repo.](https://github.com/reduan2660/depops-cd/tree/main/environment/dev/apps)
+- *path:* what file or directory to track. [The structure of this path points to is documented on that repo.](https://github.com/here-for-the-experience/deployment/tree/main/environment/dev/apps)
 
 
-Domain:
+ARGOCD Domain:
 
 - dev.argocd.redevops.store
 - argocd.redevops.store
+
+ARGO Rollout Dashboard
+
+```bash
+kubectl port-forward svc/argo-rollouts-dashboard -n argocd 3100:3100
+```
 
 ## Monitoring
 
@@ -128,4 +134,6 @@ Default domains:
 - grafana.redevops.store
   - admin
   - prom-operator
+ 
+  
 
