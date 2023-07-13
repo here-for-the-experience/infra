@@ -1,5 +1,4 @@
-## Production Ready Repo located [here](https://github.com/reduan2660/devops-eks-with-monitoring)
-
+## This repo was partially inspired from [Anton Putra's Tutorials](https://github.com/antonputra/tutorials)
 ## Cluster UP
 
 
