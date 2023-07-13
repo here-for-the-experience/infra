@@ -1,4 +1,4 @@
-name: Terragrun plan
+name: Terragrunt plan
 
 on:
   pull_request:
