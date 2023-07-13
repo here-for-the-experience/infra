@@ -1,4 +1,4 @@
-## This repo was partially inspired from [Anton Putra's Tutorials](https://github.com/antonputra/tutorials)
+## This repo was partially inspired by [Anton Putra's Tutorials](https://github.com/antonputra/tutorials)
 ## Cluster UP
 
 
